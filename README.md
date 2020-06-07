@@ -1,5 +1,5 @@
 # MSI-B360M-Mortar-Hackintosh-OC
-Another (almost) fully functioning OpenCore EFI for MSI-B360M-Mortar
+Another (almost) fully functioning OpenCore EFI for MSI B360M Mortar
 
 ### OpenCore: 0.5.9
 
