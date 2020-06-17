@@ -14,8 +14,10 @@ Another (almost) fully functioning OpenCore EFI for MSI B360M Mortar
 
 ## Caveat
 
-- You may want to generate your own CPUFriendDataProvider.kext;
-- You may want to generate your own USBPorts.kext.
+- You may want to generate your own CPUFriendDataProvider.kext. Alternatively, you can delete CPUFriend.kext and CPUFriendDataProvider.kext, and the corresponding entries in config.plist.
+- You may want to generate your own USBPorts.kext. You can delete USBInjectAll.kext if USBPorts.kext is added, and delete the corresponding entry in config.plist.
+
+(remember to rebuild cache if kexts are deleted)
 
 ## Credit:
 
