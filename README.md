@@ -9,13 +9,16 @@ Another (almost) fully functioning OpenCore EFI for MSI B360M Mortar
 - GPU: Sapphire RX 5500 XT 8GB
 - Display: AOC U2790 (27 inches, 3840x2160) via dp
 - RAM: 16GB
-- HDD: Intel NVME 256GB
+- SSD: Intel NVME 256GB
 - Wifi + Bluetooth: BCM943602CS
+
+Another SSD (Samsung 860 Evo) is installed for Windows 10. OC set to boot macOS as default. Function key F11 to boot Windows 10 from the Samsung SSD.
 
 ## Caveat
 
-- You may want to generate your own CPUFriendDataProvider.kext. Alternatively, you can delete CPUFriend.kext and CPUFriendDataProvider.kext, and the corresponding entries in config.plist.
-- You may want to generate your own USBPorts.kext. You can delete USBInjectAll.kext if USBPorts.kext is added, and delete the corresponding entry in config.plist.
+- You may want to generate your own CPUFriendDataProvider.kext. Alternatively, you can delete CPUFriend.kext and CPUFriendDataProvider.kext all together, and disable / delete the corresponding entries in config.plist.
+- You may want to generate your own USBPorts.kext or use USBInjectAll.kext (mutually exclusive).
+- You can also delete IntelMausi.kext if ethernet is not needed, and disable / delete the entry in config.plist.
 
 (remember to rebuild cache if kexts are deleted)
 
