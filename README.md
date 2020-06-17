@@ -12,6 +12,11 @@ Another (almost) fully functioning OpenCore EFI for MSI B360M Mortar
 - HDD: Intel NVME 256GB
 - Wifi + Bluetooth: BCM943602CS
 
+## Caveat
+
+- You may want to generate your own CPUFriendDataProvider.kext;
+- You may want to generate your own USBPorts.kext.
+
 ## Credit:
 
 [GeQ1an](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI)<br>
