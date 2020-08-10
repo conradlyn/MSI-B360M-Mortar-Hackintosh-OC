@@ -1,7 +1,7 @@
 # MSI-B360M-Mortar-Hackintosh-OC
 Another (almost) fully functioning OpenCore EFI for MSI B360M Mortar
 
-### OpenCore: 0.5.9
+### OpenCore: 0.5.9 (an update to 0.6.0 should also work)
 
 ## Hardware
 - CPU: Intel i5 9400
