@@ -16,6 +16,7 @@ Another SSD (Samsung 860 Evo) is installed for Windows 10. OC set to boot macOS 
 
 ## Caveat
 
+- You need to fill in your own platforminfo.
 - You may want to generate your own CPUFriendDataProvider.kext. Alternatively, you can delete CPUFriend.kext and CPUFriendDataProvider.kext all together, and disable / delete the corresponding entries in config.plist.
 - You may want to generate your own USBPorts.kext or use USBInjectAll.kext (mutually exclusive).
 - You can also delete IntelMausi.kext if ethernet is not needed, and disable / delete the entry in config.plist.
